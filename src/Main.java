@@ -9,6 +9,11 @@ public class Main {
         double sub = i-j;
         return sub;
     }
+    //    Div
+    public static double div(double i, double j){
+        double div = i/j;
+        return div;
+    }
     public static void main(String[] args) {
         System.out.println("Ready to Calculate!!!");
 
