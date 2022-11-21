@@ -13,9 +13,9 @@ public class Main {
         return sub;
     }
     //    Div
-    public static double div(double i, double j){
-        double div = i/j;
-        return div;
+    public static void div(double i, double j) throws ArithmeticException{
+            double div = i / j;
+        System.out.println(div);
     }
     public static double mul(double i, double j){
         double mul = i*j;
@@ -48,12 +48,11 @@ public class Main {
                     System.out.println(sub);
                     break;
                 case 3:
-                    double mul = mul(a, b);
+                    double mul = mul(a,b);
                     System.out.println(mul);
                     break;
                 case 4:
-                    double div = div(a, b);
-                    System.out.println(div);
+                    div(a,b);
                     break;
                 default:
                     System.out.println("Invalid Options");
